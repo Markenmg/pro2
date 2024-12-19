@@ -1,10 +1,10 @@
 ﻿namespace KooliProjekt.Data
 {
-    public class SampleBatch
+    public class invoiceDate
     {
         public int Id { get; set; }
+        public DateTime EntryDate { get; set; }
         public string Description { get; set; } // Max length: 255
-        public User User { get; set; } // The user who tested the sample
     }
 
 
